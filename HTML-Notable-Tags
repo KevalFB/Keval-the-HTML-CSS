@@ -1,0 +1,21 @@
+<b>	            For Making The Text Bold
+<i>             For Making The Text Italic
+<u>             For Making The Text Underlined 
+<br>            For A Single Line Break
+<del>           For Striking the Text
+<hr>            For Creating Horizontal Line
+<sup>           For Superscripting The Text  
+<sub>           For Subscripting The Text   
+<marquee>       For Creating Scrolling Text or Images
+<button>        For Making Clickable Button
+<h1> to <h6>	  For Making HTML headings
+<p>	            For Making The paragraph Text
+<span>          For Creating Inline Elements And Content
+<a>             For a Hyperlink
+<img src=>      For Including the Image
+<table>         For Making The Table
+<form>          For Making The Form
+<input>         For Input Data   
+<audio>	        For Embedded Sound Content
+<video>	        For Embedded Video Content
+<!--...-->      For Commenting
