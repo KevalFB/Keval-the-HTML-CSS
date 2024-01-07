@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umino</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+*
+ {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+
+.firstdiv
+
+{
+
+    border: 5px solid black;
+    background-color: #111111;
+    height: 40px;
+    padding-top: 5px;
+    
+}
+
+.seconddiv
+
+{
+
+border: 5px solid black;
+height: 100px;
+color: black;
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+    
+
+}
+
+.seconddiv h1
+
+{
+
+color: black;
+
+
+}
+
+.seconddiv .seconddivicons
+
+{
+
+    color: black;
+    padding-right: 50px;
+    
+       
+
+}
+
+
+.thirddiv
+
+{
+
+border: 5px solid black;
+color: black;
+display: flex;
+padding-left: 475px;
+height: 100px;
+padding-top: 30px;
+gap: 20px;
+font-size: 15px;
+
+
+}    
+
+.balibloom
+
+{
+
+    width: 100%;
+    height: 700px;
+    /* border: 5px solid black; */
+    background-image: url(girl1.jpg); width: 100%; background-repeat: no-repeat; background-size: contain;
+    color: black;
+    position: relative;
+       
+
+}   
+
+
+.bali1
+
+{
+
+    /* border: 10px solid red; */
+    width: 30%;
+    height:35%;
+    text-align: center; 
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 50px;
+      
+
+
+}
+
+
+.fourthdiv
+
+{
+
+    /* border: 10px solid red; */
+    color: black;
+    text-align: center;
+    /* margin-top: 20px; */
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+
+}
+
+.fifthdiv
+
+
+{
+
+/* border: 10px solid green; */
+color: black;
+height: 700px;
+margin-top: 100px;
+display: flex;
+margin-left: 40px;
+margin-right: 40px;
+
+    
+
+}
+
+.fifthdiv .bikinis6
+
+{
+
+background-image: url(onesixservices.jpg); width: 33%; height: 100%; background-repeat: no-repeat; 
+color: white;
+padding-top: 600px;
+font-size: x-large;
+border-radius: 4%;
+margin-right:20px;
+
+}
+
+.fifthdiv .bottom6
+
+{
+
+background-image: url(6services.jpg); width: 33%; height: 100%; background-repeat: no-repeat;
+color: white;
+padding-top: 600px;
+font-size: x-large;
+border-radius: 4%;
+margin-right:20px;
+
+}
+
+
+.fifthdiv .oneieces
+
+{
+
+background-image: url(12services.jpg); width: 33%; height: 100%; background-repeat: no-repeat;
+color: white;
+padding-top: 600px;
+font-size: x-large;
+border-radius: 4%;
+
+
+}
+
+.sixdiv
+
+{
+
+/* border: 5px solid black; */
+height: 200px;
+padding-top: 50px;
+
+}    
+
+
+.sevendiv
+
+{
+
+display: flex;
+/* margin: 0px 40px 0px 40px; */
+justify-content: space-evenly
+
+}
+
+
+.three
+
+{
+
+display: flex;
+margin-left: 140px;
+margin-top: 10px;
+
+}
+
+.sevendiv .threecircles
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+background-color: skyblue;
+
+
+}
+
+.sevendiv .threecirclestwo
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+margin-left: 10px;
+background-color: red;
+
+
+}
+
+.sevendiv .threecirclesthree
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+margin-left: 10px;
+background-color: black;
+
+
+}
+
+
+.eightdiv
+
+{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    color: white;
+    /* border: 5px solid black;  */
+    margin-top: 40px;
+
+}
+
+
+
+
+.eightdiv .hellosummmer
+
+{
+
+    background-image: url(hellosummer.jpg); background-size: contain; background-repeat: no-repeat;
+    width: 50%;
+    position: relative;
+    margin-left: 20px;
+    
+
+}
+
+
+.eightdiv .hellosummmer p
+
+
+{
+
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+
+    
+
+   
+} 
+
+.eightdiv .hellosummmer button
+
+
+{
+
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    
+
+   
+} 
+
+
+.eightdiv .heretoyou
+
+{
+
+    
+    background-image: url(swim_bn_2.jpg); background-size: contain; background-repeat: no-repeat;
+    width: 50%;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+
+
+}
+
+
+.eightdiv .heretoyou p
+
+
+{
+
+position: absolute;
+margin-top: 330px;
+    
+   
+} 
+
+
+
+.eightdiv .heretoyou button
+
+
+{
+
+    position: absolute;
+    left: 30px;  
+    bottom: 30px;
+    top: 30px;
+
+   
+} 
+
+
+.ninediv
+
+{
+
+height: 200px;
+padding-top: 75px;
+margin-top: 0px;
+/* border: 5px solid black; */
+
+
+
+}    
+
+
+.tendiv
+
+{
+
+display: flex;
+justify-content: space-evenly;
+height: 700px;
+/* border: 5px solid black; */
+
+
+
+}
+
+
+.tendiv .threecircles
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+background-color: skyblue;
+
+
+}
+
+.tendiv .threecirclestwo
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+margin-left: 10px;
+background-color: red;
+
+
+}
+
+.tendiv .threecirclesthree
+
+{
+
+border-radius: 50%;
+height: 20px;
+width: 20px;
+border: 1px solid black;
+margin-left: 10px;
+background-color: black;
+
+
+}
+
+
+.elevendiv
+
+
+{
+
+    height: 500px;
+    width: 100%;
+    /* border: 5px solid black; */
+    padding-top: 20px;
+    position: relative;
+    margin: 30px;
+   
+    
+}
+
+.elevendiv p
+
+
+{
+
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    color: white;
+
+}
+
+
+.elevendiv .eday
+
+{
+
+position: absolute;
+top: 400px;
+left: 625px;
+color: white;
+
+}
+
+
+.elevendiv .fthy
+
+{
+
+position: absolute;
+top: 480px;
+left: 550px;
+color: white;
+font-size: 50px;
+
+
+}
+
+
+.elevendiv .wefree
+
+{
+
+position: absolute;
+top: 550px;
+left: 500px;
+color: white;
+padding-top: 20px;
+
+}
+
+.elevendiv button
+
+{
+
+position: absolute;
+top: 625px;
+left: 625px;
+color: black;
+padding-top: 5px;
+background-color: white;
+height: 50px;
+width: 180px;
+border-radius: 30px;
+text-align: center;
+
+}
+
+
+
+.twediv
+
+{
+
+height: 200px;
+padding-top: 75px;
+margin-top: 650px;
+/* border: 5px solid black; */
+
+
+}
+
+
+.thirteendiv
+
+{
+
+display: flex;
+/* border: 5px solid black; */
+justify-content: space-evenly;
+width: 100%;
+margin: 20px;
+
+}
+
+.thirteendiv img
+ 
+
+{
+
+width: 450px;
+height:250px;
+border-radius: 30px;
+
+}
+
+.fourteendiv
+
+
+
+{
+
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+
+
+}
+
+
+
+.fifteendiv
+
+
+{
+
+    display: flex;
+    background-color: #F3EBE0;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    height: 425px;
+    
+
+}
+
+.sixteendiv
+
+{
+
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 20px;
+background-color: #F3EBE0;
+
+
+}
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="firstdiv">
+
+        
+        <i class="fa-solid fa-less-than" style="padding-left: 400px; color: grey; font-size: small;"></i>
+      
+      <span style="padding-left: 100px; color: grey;">The best-selling ants youll wear on reeat - all under $ 100.</span> 
+      
+        <a href="" style="color: white;">Shop Now</a> 
+        <i class="fa-solid fa-greater-than" style="padding-left: 100px; color: grey; font-size: small;"></i>
+
+        <i class="fa-sharp fa-regular fa-x" style="padding-left: 420px; color: gray;"></i>
+
+
+    </div>
+
+    
+    
+    <div class="seconddiv">
+
+        <div>
+
+            
+<select id="currency">
+  <option value="volvo" style="border: none;">United States USD </option>
+  <option value="saab">France EUR </option>
+  <option value="opel">Jaan JY</option>
+  <option value="audi">Netherland USD</option>
+  <option value="audi">United Kingdom GB</option>
+</select>
+  
+<select id="language">
+    <option value="volvo1">English </option>
+    <option value="saab1">Nederlands </option>
+    <option value="opel1">Francais</option>
+    <option value="audi1">Chinese</option>
+</select>
+  
+
+        </div>
+
+        
+        
+        <div>
+
+            <h1>UMINO</h1>
+
+
+        </div>
+       
+        
+
+        <div class="seconddivicons">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        
+
+        </div>
+
+
+
+
+
+    </div>
+    
+    
+    <div class="thirddiv">
+
+        <h3>HOME</h3>
+        <h3>SHOP</h3>
+        <h3>PRODUCT</h3>
+        <h3>BLOG</h3>
+        <h3>PAGE</h3>
+        <h3>SALE</h3>
+        <h3>BUY UMINO!</h3>
+        
+    </div>
+
+ 
+    
+<div class="balibloom">
+
+        <div class="bali1">
+
+            <p style="padding-bottom: 10px;">TO TRENDING</p>
+            <p style="padding-bottom: 10px; font-size: 60px;">Bali Bloom</p>
+            <p style="padding-bottom: 20px;">Suitable for all ages, moral styles and body-consciousness.</p>
+            <button style="background-color: black; color: white; padding-bottom: 20px; padding-top: 6px; width: 100px; height: 30px; border-radius: 30px;">Exlore Now</button>               
+           
+        </div>
+ 
+    </div> 
+
+    <div class="fourthdiv">
+        
+<div>
+
+    <p style="font-size: 400%;">Hello!</p>
+    <p style="font-size: 400%;">We are Umino Store</p>
+    <p style="font-size: 150%; padding-top: 20px;">Foreseeing the trends and the desires of the man of the future, we initiated our </p>
+    <p style="font-size: 150%; padding-top: 10px;">journey a few years back with the sole ambition of setting new standards in quality </p>
+    <p style="font-size: 150%;padding-top: 10px;">and reliability — by forging products that feel personal.</p>
+
+<div>
+
+
+</div>
+
+<div class="fifthdiv">
+
+    
+<div class="bikinis6">
+
+<p>Bikinis</p>
+<p>6 products</p>
+ 
+</div>
+
+
+<div class="bottom6">
+
+    <p>Bottoms</p>
+    <p>6 products</p>
+     
+    </div>
+
+    
+<div class="oneieces">
+
+    <p>One pieces</p>
+    <p>12 products</p>
+     
+    </div>
+
+</div>
+
+
+<div class="sixdiv">
+
+    <p style="font-size: 40px;">Top picks</p>
+    <p style="padding-top: 10px;">Heres some of our most popular products people are in with</p>
+    
+</div>
+
+<div class="sevendiv">
+
+<div>
+
+    <img src="bikini_products_1_1111.jpg">
+    <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+    <span style="color: red; font-weight: 700;">$156</span>
+    <span><del>$186</del></span>
+    
+    <div class="three">
+    
+        <div class="threecircles">
+        
+    </div>
+    
+    <div class="threecirclestwo">
+        
+    </div>
+    
+    <div class="threecirclesthree">
+    </div>
+        
+    </div>
+
+
+</div>
+
+
+
+<div>
+
+    <img src="bikini_products_1_1111.jpg">
+    <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+    <span style="color: red; font-weight: 700;">$156</span>
+    <span><del>$186</del></span>
+
+    <div class="three">
+    
+        <div class="threecircles">
+        
+    </div>
+    
+    <div class="threecirclestwo">
+        
+    </div>
+    
+    <div class="threecirclesthree">
+    </div>
+        
+    </div>
+
+
+</div>
+
+
+<div>
+
+    <img src="bikini_products_1_1111.jpg">
+    <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+    <span style="color: red; font-weight: 700;">$156</span>
+    <span><del>$186</del></span>
+<div class="three">
+    
+        <div class="threecircles">
+        
+    </div>
+    
+    <div class="threecirclestwo">
+        
+    </div>
+    
+    <div class="threecirclesthree">
+    </div>
+        
+    </div>
+
+
+</div>
+
+
+<div>
+
+    <img src="bikini_products_1_1111.jpg">
+    <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+    <span style="color: red; font-weight: 700;">$156</span>
+    <span><del>$186</del></span>
+
+    
+    <div class="three">
+    
+        <div class="threecircles">
+        
+    </div>
+    
+    <div class="threecirclestwo">
+        
+    </div>
+    
+    <div class="threecirclesthree">
+    </div>
+        
+    </div>
+
+</div>
+
+
+</div>
+
+<div class="eightdiv">  
+
+<div class="hellosummmer">
+
+    <p style="margin-top: 200px; font-size: 50px; padding-bottom: 20px;">Hello Summer</p>
+    <p>Suitable for all ages, moral styles and body-concisouness</p>
+    <button style="background-color: white; border-radius: 30px; height: 50px; width: 150px; margin-top: 20px;">Explore Now</button>
+
+</div>
+
+
+<div class="heretoyou">
+
+    
+    <p style="font-size: 50px;">Here to You</p>
+    
+    <p style="padding-top: 60px;">Suitable for all ages, moral styles and body-concisouness</p>
+    
+    <button style="background-color: white; border-radius: 30px; height: 50px; width: 150px; margin-top: 390px; left: 20px;">Explore Now</button>
+
+    
+</div>
+
+
+</div>
+
+
+<div class="ninediv">
+
+    <p style="font-size: 40px;">New Arrivals</p>
+    <p style="padding-top: 10px;">Heres some of our most popular products people are in with</p>
+
+</div>
+
+
+<div class="tendiv">
+
+    <div>
+
+        <img src="bikini_products_7_111111.jpg">
+        
+        <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+        
+        <span style="color: red; font-weight: 700;">$156</span>
+        
+        <span><del>$186</del></span>
+        
+        <div class="three">
+        
+            <div class="threecircles">
+            
+        </div>
+        
+        <div class="threecirclestwo">
+            
+        </div>
+        
+        <div class="threecirclesthree">
+        </div>
+            
+        </div>
+    
+    
+    </div>
+    
+    
+    
+    <div>
+    
+        <img src="bikini_products_7_111111.jpg">
+        <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+        <span style="color: red; font-weight: 700;">$156</span>
+        <span>$156</span>
+        <div class="three">
+        
+            <div class="threecircles">
+            
+        </div>
+        
+        <div class="threecirclestwo">
+            
+        </div>
+        
+        <div class="threecirclesthree">
+        </div>
+            
+        </div>
+    
+    
+    </div>
+    
+    
+    <div>
+    
+        <img src="bikini_products_7_111111.jpg">
+        <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+        <span style="color: red; font-weight: 700;">$156</span>
+        <span><del>$186</del></span>
+        <div class="three">
+        
+            <div class="threecircles">
+            
+        </div>
+        
+        <div class="threecirclestwo">
+            
+        </div>
+        
+        <div class="threecirclesthree">
+        </div>
+            
+        </div>
+    
+    
+    </div>
+    
+    
+    <div>
+    
+        <img src="bikini_products_7_111111.jpg">
+        <p style="padding-bottom: 5px;">Umino Underwire Bikini Top</p>
+        <span style="color: red; font-weight: 700;">$156</span>
+    
+        <span><del>$186</del></span>
+    
+        
+        <div class="three">
+        
+            <div class="threecircles">
+            
+        </div>
+        
+        <div class="threecirclestwo">
+            
+        </div>
+        
+        <div class="threecirclesthree">
+        </div>
+            
+        </div>
+    
+    </div>
+    
+
+
+</div>
+
+
+<div class="elevendiv">
+
+
+    <div>
+
+
+
+        <video
+        controls="true"
+        loop="true"
+        muted="true"
+        playsinline="true"
+        kind="captions" srclang="en"
+        autoplay="true"
+        src="https://cdn.shopify.com/videos/c/vp/1d764a479f564147afcf7d3be3c4b4e5/1d764a479f564147afcf7d3be3c4b4e5.HD-1080p-7.2Mbps-18191682.mp4"
+      ></video>
+
+
+
+        <p class=eday style="font-size: 50px;">Everyday</p>
+        <p class=fthy style="font-size: 50px;">For Your Healthy</p>
+        <p class="wefree">We will choose the erfect gift box for you resent and comletely free</p>
+        <button>Explore Now</button>
+        
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+<div class="twediv">
+
+
+   <p style="font-size: 40px; color: black;">The Blogs</p>
+    <p style="padding-top: 10px;">rovide you with useful knwoledge about fashion trend.</p>
+
+
+</div>
+
+
+<div class="thirteendiv">
+
+
+    <!-- <p style="font-size: 40px; color: black;">The Blogs</p>
+     <p style="padding-top: 10px;">rovide you with useful knwoledge about fashion trend.</p>
+  -->
+ 
+<div>
+
+<img src="oolsidebikini.webp">
+<p>Swimwear</p>
+<p>Umino Troical Collection</p>
+<p>These are the people who make your life asier. Large tiles were arranged on the counter top plate near the window of the living room, they...</p>
+
+</div>
+
+<div>
+
+    <img src="oolsidebikini.webp">
+    <p>Swimwear</p>
+    <p>Umino Troical Collection</p>
+    <p>These are the people who make your life asier. Large tiles were arranged on the counter top plate near the window of the living room, they...</p>
+    
+    </div>
+
+    <div>
+
+        <img src="oolsidebikini.webp">
+        <p>Swimwear</p>
+        <p>Umino Troical Collection</p>
+        <p>These are the people who make your life asier. Large tiles were arranged on the counter top plate near the window of the living room, they...</p>
+        
+        </div>
+        
+
+</div>
+
+
+<div class="fourteendiv">
+
+    
+
+    <div style="border: 1px solid lightgrey; height: 200px; padding-top: 120px;">
+
+        <p>High Quality Items</p>
+        <p style="padding-top: 10px;">We are committed to delivering outstanding quality in</p>
+        <p style="padding-top: 10px;"> every detail, meeting your diverse needs.</p>
+
+
+
+    </div>
+
+    <div style="border: 1px solid lightgrey; height: 200px; padding-top: 120px;">
+
+        <p>Materials Tested</p>
+        <p>Products that undergo rigorous testing to ensure their</p>
+        <p> exceptional, durability and reliability.</p>
+
+
+
+    </div>
+
+    
+    <div style="border: 1px solid lightgrey; height: 200px; padding-top: 120px;">
+    
+        <p>Support Online</p>
+        <p>We support customers 24/7, send questions we will</p>
+        <p> solve for you immediately.</p>
+
+
+    </div>
+    </div>
+
+
+<div class="fifteendiv">
+
+
+    <div style="text-align: left;">
+    
+        <p style="font-size: x-large;">Contact us</p>
+        <p style="padding-top: 20px;">268 St, South New York/NY 98944, United States.</p>
+        <p style="padding-top: 10px;">+222-1800-2628</p>
+        <p style="padding-top: 10px;">blueskytechcompany@gmail.com</p>
+
+        
+    </div>
+
+
+    <div style="text-align: left;">
+
+        <p style="font-size: x-large;">Hot Category</p>
+        <p style="padding-top: 10px;">Secial Offers</p>
+        <p style="padding-top: 10px;">erformance</p>
+        <p style="padding-top: 10px;">T-shirts</p>
+        <p style="padding-top: 10px;">Underwear</p>
+        <p style="padding-top: 10px;">To Brands</p>
+        <p style="padding-top: 10px;">Online Exclusive</p>
+
+    </div>
+
+
+
+    <div style="text-align: left;">
+
+        <p style="font-size: x-large;">Customer Service</p>
+        <p style="padding-top: 10px;">Privacy Policy</p>
+        <p style="padding-top: 10px;">Refund Policy</p>
+        <p style="padding-top: 10px;">Shipping & Return</p>
+        <p style="padding-top: 10px;">Term & Conditions</p>
+        <p style="padding-top: 10px;">Advanced Search</p>
+        <p style="padding-top: 10px;">Theme FAQs</p>
+        <p style="padding-top: 10px;">Store Locations</p>
+
+    </div>
+
+
+    <div style="text-align: left;">
+
+        <p style="font-size: x-large;">Sign Up to Newsletter</p>
+        <p style="padding-top: 10px;">Enter your email address to get $10 off your first order and free</p>
+        <p style="padding-top: 10px;">shipping.Updates information on Sales and Offers.</p>
+        <input type="text" style="width: 300px; height: 50px; border-radius: 30px; border: 1px solid black; margin-top: 20px;">  
+        <button style="border: 1px solid black; margin-top: 20px; color: white; background-color:black; width: 150px; height:50px; border-radius: 30px;">Subscribe</button>
+
+    </div>
+
+</div>
+
+<hr style="width: 2000px; left: 200px;">
+
+<div class="sixteendiv">
+
+    <div>
+
+        <select>
+            <option>English</option>
+            <option>Nederlands</option>
+            <option>Francais</option>
+            <option>Chienese</option>
+        </select>
+
+        <select id="currency">
+            <option value="volvo" style="border: none;">United States USD </option>
+            <option value="saab">France EUR </option>
+            <option value="opel">Jaan JY</option>
+            <option value="audi">Netherland USD</option>
+            <option value="audi">United Kingdom GB</option>
+          </select>
+          
+
+    </div>
+
+
+    <div>
+
+        <p>© 2022 Umino Store. All Rights Reserved</p>
+        
+    </div>
+
+    <div>
+
+<img src="ayment.png">
+        
+    </div>
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
